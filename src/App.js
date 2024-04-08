@@ -7,7 +7,6 @@ import appSyncConfig from "./aws-exports";
 import { ApolloProvider } from "react-apollo";
 import AWSAppSyncClient, { defaultDataIdFromObject } from "aws-appsync";
 import { Rehydrated } from "aws-appsync-react";
-// is a test
 import './App.css';
 import AllEvents from './Components/AllEvents';
 import NewEvent from './Components/NewEvent';
