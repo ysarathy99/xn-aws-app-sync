@@ -5,6 +5,7 @@
   "dependencies": {
     "amplify": "^0.0.11",
     "apollo-client": "^2.6.10",
+    "aws-amplify": "^6.0.27",
     "aws-appsync": "^3.0.1",
     "aws-appsync-react": "^3.0.1",
     "graphql": "^0.11.7",
@@ -36,5 +37,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@aws-amplify/backend": "^0.12.1",
+    "@aws-amplify/backend-cli": "^0.11.1",
+    "aws-cdk": "^2.136.0",
+    "aws-cdk-lib": "^2.136.0",
+    "constructs": "^10.3.0",
+    "typescript": "^5.4.4"
   }
 }
